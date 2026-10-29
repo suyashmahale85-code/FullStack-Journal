@@ -1,0 +1,25 @@
+body{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 22px;
+ min-height: 100vh;
+} 
+.colorScreen{
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+  border-radius: 22px;
+
+  color: white;
+}
+input{
+  text-align: center;
+}
